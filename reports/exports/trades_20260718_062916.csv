@@ -1,0 +1,289 @@
+﻿symbol,side,entry,exit,result,score,reason,bars_held,opened_at,closed_at
+BTCUSDT,BUY,60413.99,59284.22,LOSS,105,RSI Saludable | MACD Alcista | Supertrend Alcista | Volumen Institucional,15,61,2026-07-18 06:29:16.271363
+BTCUSDT,BUY,60295.0,59162.6386,LOSS,90,RSI Saludable | MACD Alcista | Supertrend Alcista | Bullish FVG,17,62,2026-07-18 06:29:16.272952
+BTCUSDT,BUY,60433.49,59344.9329,LOSS,90,RSI Saludable | MACD Alcista | Supertrend Alcista | Equal High | Equal Low,13,63,2026-07-18 06:29:16.274314
+BTCUSDT,BUY,60296.0,59212.8514,LOSS,65,RSI Saludable | MACD Alcista | ADX Mercado Lateral | Supertrend Alcista | Equal High,12,64,2026-07-18 06:29:16.275491
+BTCUSDT,BUY,60479.72,59386.12,LOSS,115,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Mercado Lateral | Supertrend Alcista | Equal High | Equal Low,8,65,2026-07-18 06:29:16.276333
+BTCUSDT,BUY,60352.31,59284.7857,LOSS,95,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Mercado Lateral | Supertrend Alcista,10,66,2026-07-18 06:29:16.277366
+BTCUSDT,BUY,60260.21,59212.6886,LOSS,95,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Mercado Lateral | Supertrend Alcista,9,67,2026-07-18 06:29:16.278308
+BTCUSDT,BUY,59838.01,58744.5486,LOSS,75,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Mercado Lateral | Supertrend Alcista | Bearish FVG,12,68,2026-07-18 06:29:16.279423
+BTCUSDT,BUY,59948.24,59003.3443,LOSS,65,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Mercado Lateral | Supertrend Alcista | Equal High | Equal Low,10,70,2026-07-18 06:29:16.280489
+BTCUSDT,SELL,59627.48,57905.7886,WIN,-50,EMAs Bajistas | RSI Saludable | MACD Bajista | ADX Mercado Lateral | Supertrend Alcista | Equal High | Bearish Order Block,22,71,2026-07-18 06:29:16.282057
+BTCUSDT,SELL,59492.01,57890.99,WIN,-55,EMAs Bajistas | RSI Saludable | MACD Bajista | ADX Mercado Lateral | Supertrend Alcista | Bearish FVG,21,72,2026-07-18 06:29:16.283757
+BTCUSDT,BUY,58770.57,60671.71,WIN,85,EMAs Bajistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Bearish BOS | Bullish Order Block,20,93,2026-07-18 06:29:16.288452
+BTCUSDT,BUY,59197.13,60987.4557,WIN,50,EMAs Bajistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,19,95,2026-07-18 06:29:16.290198
+BTCUSDT,BUY,58755.8,60385.5371,WIN,50,EMAs Bajistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,9,98,2026-07-18 06:29:16.291351
+BTCUSDT,BUY,58944.55,60592.7957,WIN,50,EMAs Bajistas | RSI Saludable | MACD Alcista | Supertrend Alcista | Bullish FVG,12,101,2026-07-18 06:29:16.292677
+BTCUSDT,BUY,59498.03,61421.5671,WIN,90,EMAs Bajistas | RSI Saludable | MACD Alcista | Supertrend Alcista | Volumen Institucional | Bullish Order Block,20,105,2026-07-18 06:29:16.294636
+BTCUSDT,BUY,59542.0,61572.2,WIN,100,MACD Alcista | Supertrend Alcista | Volumen Institucional | Bullish FVG,22,106,2026-07-18 06:29:16.296281
+BTCUSDT,BUY,60147.15,62118.3271,WIN,100,MACD Alcista | Supertrend Alcista | Volumen Institucional | Bullish FVG,23,107,2026-07-18 06:29:16.298138
+BTCUSDT,BUY,59920.0,61860.8171,WIN,70,RSI Saludable | MACD Alcista | Supertrend Alcista,21,108,2026-07-18 06:29:16.299839
+BTCUSDT,BUY,60190.6,62126.9857,WIN,80,RSI Saludable | MACD Alcista | Supertrend Alcista | Equal High,21,109,2026-07-18 06:29:16.301367
+BTCUSDT,BUY,60171.16,62075.1457,WIN,140,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High,20,110,2026-07-18 06:29:16.303023
+BTCUSDT,BUY,60028.67,61962.0471,WIN,150,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,18,111,2026-07-18 06:29:16.304445
+BTCUSDT,BUY,60126.0,61973.7514,WIN,105,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,17,112,2026-07-18 06:29:16.305748
+BTCUSDT,BUY,60815.99,59820.9486,LOSS,85,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,3,113,2026-07-18 06:29:16.306339
+BTCUSDT,BUY,60478.01,62614.0929,WIN,160,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Bullish FVG,46,114,2026-07-18 06:29:16.309399
+BTCUSDT,BUY,60024.0,62224.8743,WIN,130,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,38,115,2026-07-18 06:29:16.312045
+BTCUSDT,BUY,59761.73,61995.6129,WIN,110,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Bearish FVG,13,116,2026-07-18 06:29:16.313252
+BTCUSDT,BUY,60175.92,62525.0286,WIN,130,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish Order Block,43,117,2026-07-18 06:29:16.316171
+BTCUSDT,BUY,60423.1,62809.2257,WIN,105,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,42,118,2026-07-18 06:29:16.319413
+BTCUSDT,BUY,61058.0,62471.52,TIMEOUT,105,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,50,119,2026-07-18 06:29:16.322844
+BTCUSDT,BUY,60787.98,62500.01,TIMEOUT,150,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish FVG,50,120,2026-07-18 06:29:16.326210
+BTCUSDT,BUY,60504.54,62530.4971,WIN,130,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,39,121,2026-07-18 06:29:16.329235
+BTCUSDT,BUY,60274.01,62297.4871,WIN,110,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Bearish FVG,33,122,2026-07-18 06:29:16.331594
+BTCUSDT,BUY,60149.99,62104.7357,WIN,60,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Bearish FVG,7,123,2026-07-18 06:29:16.332398
+BTCUSDT,BUY,60511.99,62507.0071,WIN,115,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low | Bullish Order Block,36,124,2026-07-18 06:29:16.334858
+BTCUSDT,BUY,61184.0,62482.01,TIMEOUT,185,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Bullish FVG,50,125,2026-07-18 06:29:16.338268
+BTCUSDT,BUY,61263.68,62664.01,TIMEOUT,150,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish FVG,50,126,2026-07-18 06:29:16.341478
+BTCUSDT,BUY,61358.01,62588.84,TIMEOUT,140,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High,50,127,2026-07-18 06:29:16.344667
+BTCUSDT,BUY,61542.53,62693.99,TIMEOUT,175,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Equal Low,50,128,2026-07-18 06:29:16.348030
+BTCUSDT,BUY,61939.04,62943.29,TIMEOUT,160,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Bullish FVG,50,129,2026-07-18 06:29:16.351289
+BTCUSDT,BUY,61696.61,62927.29,TIMEOUT,165,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Bullish BOS,50,130,2026-07-18 06:29:16.354650
+BTCUSDT,BUY,61612.93,63280.38,TIMEOUT,115,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,50,131,2026-07-18 06:29:16.357982
+BTCUSDT,BUY,61682.34,63172.78,TIMEOUT,115,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High,50,132,2026-07-18 06:29:16.361285
+BTCUSDT,BUY,61667.39,63294.72,TIMEOUT,130,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,50,133,2026-07-18 06:29:16.364564
+BTCUSDT,BUY,61761.36,63233.78,TIMEOUT,115,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,50,134,2026-07-18 06:29:16.368097
+BTCUSDT,BUY,61479.6,63334.5343,WIN,80,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Bearish Order Block,46,135,2026-07-18 06:29:16.371022
+BTCUSDT,BUY,61560.0,63057.5543,WIN,100,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,40,139,2026-07-18 06:29:16.374152
+BTCUSDT,BUY,61588.0,63146.9543,WIN,115,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low | Bullish Order Block,40,141,2026-07-18 06:29:16.376958
+BTCUSDT,BUY,61440.01,62971.4929,WIN,90,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,19,142,2026-07-18 06:29:16.378362
+BTCUSDT,BUY,61434.0,62880.9543,WIN,65,EMAs Alcistas | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,17,143,2026-07-18 06:29:16.379850
+BTCUSDT,BUY,61448.0,62719.4514,WIN,100,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,16,144,2026-07-18 06:29:16.381101
+BTCUSDT,BUY,61700.49,62958.95,WIN,80,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista,16,145,2026-07-18 06:29:16.382437
+BTCUSDT,BUY,61710.01,62841.8586,WIN,90,EMAs Alcistas | RSI Saludable | MACD Bajista | Supertrend Alcista | Equal High | Bullish FVG,14,146,2026-07-18 06:29:16.383689
+BTCUSDT,BUY,61750.47,62843.1557,WIN,80,EMAs Alcistas | RSI Saludable | MACD Bajista | Supertrend Alcista | Equal High | Equal Low,13,147,2026-07-18 06:29:16.384842
+BTCUSDT,BUY,61718.68,62823.1057,WIN,70,EMAs Alcistas | RSI Saludable | MACD Bajista | Supertrend Alcista | Equal Low,11,149,2026-07-18 06:29:16.385897
+BTCUSDT,BUY,61916.46,63055.1771,WIN,60,EMAs Alcistas | RSI Saludable | MACD Bajista | Supertrend Alcista,29,150,2026-07-18 06:29:16.388002
+BTCUSDT,BUY,62024.02,63198.6429,WIN,65,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Mercado Lateral | Supertrend Alcista | Bullish FVG,30,151,2026-07-18 06:29:16.390045
+BTCUSDT,BUY,61983.99,63190.7471,WIN,55,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Mercado Lateral | Supertrend Alcista | Equal Low,29,152,2026-07-18 06:29:16.392029
+BTCUSDT,BUY,62116.01,63346.2014,WIN,85,EMAs Alcistas | MACD Alcista | Supertrend Alcista,28,153,2026-07-18 06:29:16.393946
+BTCUSDT,BUY,62167.48,62637.48,TIMEOUT,75,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | Supertrend Alcista | Equal High,50,154,2026-07-18 06:29:16.397145
+BTCUSDT,BUY,61922.72,63262.5543,WIN,85,EMAs Alcistas | RSI Saludable | MACD Bajista | Supertrend Alcista | Bullish BOS,26,155,2026-07-18 06:29:16.399005
+BTCUSDT,BUY,62194.0,62768.88,TIMEOUT,55,EMAs Alcistas | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista,50,157,2026-07-18 06:29:16.402394
+BTCUSDT,BUY,62204.01,62730.61,TIMEOUT,125,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,50,158,2026-07-18 06:29:16.405665
+BTCUSDT,BUY,62210.0,63421.46,WIN,65,EMAs Alcistas | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,22,159,2026-07-18 06:29:16.407453
+BTCUSDT,BUY,62776.92,63736.0,TIMEOUT,130,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Equal Low,50,160,2026-07-18 06:29:16.410778
+BTCUSDT,BUY,62732.0,63650.0,TIMEOUT,125,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish FVG,50,161,2026-07-18 06:29:16.413940
+BTCUSDT,BUY,62578.0,63962.56,WIN,95,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,48,162,2026-07-18 06:29:16.417255
+BTCUSDT,BUY,62583.26,63940.6086,WIN,125,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,47,163,2026-07-18 06:29:16.420280
+BTCUSDT,BUY,62756.29,63460.01,TIMEOUT,115,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,50,164,2026-07-18 06:29:16.423514
+BTCUSDT,BUY,62468.44,63849.3229,WIN,105,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Bearish Order Block,45,165,2026-07-18 06:29:16.426516
+BTCUSDT,BUY,62538.96,63874.4686,WIN,70,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low | Bearish FVG,44,166,2026-07-18 06:29:16.429622
+BTCUSDT,BUY,62627.29,63942.2243,WIN,90,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,43,167,2026-07-18 06:29:16.432578
+BTCUSDT,BUY,62700.0,63894.9086,WIN,110,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Bullish FVG,42,168,2026-07-18 06:29:16.435292
+BTCUSDT,BUY,62471.52,63574.6343,WIN,65,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Bearish Order Block,41,169,2026-07-18 06:29:16.438084
+BTCUSDT,BUY,62576.0,63666.9314,WIN,80,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista,39,171,2026-07-18 06:29:16.440800
+BTCUSDT,BUY,62553.78,63652.1429,WIN,100,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,38,172,2026-07-18 06:29:16.443300
+BTCUSDT,BUY,62494.0,63591.3571,WIN,80,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista,37,173,2026-07-18 06:29:16.445823
+BTCUSDT,BUY,62513.0,63432.6086,WIN,100,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,7,174,2026-07-18 06:29:16.446690
+BTCUSDT,BUY,62482.01,63300.6071,WIN,100,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,6,175,2026-07-18 06:29:16.447458
+BTCUSDT,BUY,62664.01,63484.1043,WIN,115,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low | Bullish Order Block,34,176,2026-07-18 06:29:16.449751
+BTCUSDT,BUY,62588.84,63425.0143,WIN,90,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,4,177,2026-07-18 06:29:16.450373
+BTCUSDT,BUY,62693.99,63468.8214,WIN,100,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,32,178,2026-07-18 06:29:16.452480
+BTCUSDT,BUY,62943.29,62550.7986,LOSS,90,EMAs Alcistas | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional,18,179,2026-07-18 06:29:16.453936
+BTCUSDT,BUY,62927.29,62529.3286,LOSS,75,EMAs Alcistas | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish FVG,17,180,2026-07-18 06:29:16.455247
+BTCUSDT,BUY,63280.38,62829.4714,LOSS,175,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Equal Low | Bullish Order Block,8,181,2026-07-18 06:29:16.456017
+BTCUSDT,BUY,63172.78,62708.4329,LOSS,125,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish FVG,8,182,2026-07-18 06:29:16.456836
+BTCUSDT,BUY,63294.72,62818.9757,LOSS,95,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,6,183,2026-07-18 06:29:16.457487
+BTCUSDT,BUY,63233.78,62757.2586,LOSS,115,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,6,184,2026-07-18 06:29:16.458159
+BTCUSDT,BUY,63297.84,62809.6386,LOSS,125,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,4,185,2026-07-18 06:29:16.458720
+BTCUSDT,BUY,63184.99,62697.9329,LOSS,90,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low | Bearish Order Block,4,186,2026-07-18 06:29:16.459277
+BTCUSDT,BUY,63144.01,62636.2057,LOSS,140,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional,3,187,2026-07-18 06:29:16.459754
+BTCUSDT,BUY,62991.29,62461.27,LOSS,70,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low | Bearish FVG,9,188,2026-07-18 06:29:16.460546
+BTCUSDT,BUY,62887.94,63986.7086,WIN,80,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista,22,189,2026-07-18 06:29:16.462087
+BTCUSDT,BUY,62693.56,63825.2257,WIN,80,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista,20,190,2026-07-18 06:29:16.463706
+BTCUSDT,BUY,62769.04,63873.1257,WIN,70,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low | Bearish FVG,19,191,2026-07-18 06:29:16.465287
+BTCUSDT,BUY,62815.99,63945.27,WIN,90,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,18,192,2026-07-18 06:29:16.466768
+BTCUSDT,BUY,62740.5,63803.7143,WIN,90,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,17,193,2026-07-18 06:29:16.468009
+BTCUSDT,BUY,62782.18,63836.1457,WIN,100,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,16,194,2026-07-18 06:29:16.469228
+BTCUSDT,BUY,63020.21,62535.3614,LOSS,90,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,2,195,2026-07-18 06:29:16.469717
+BTCUSDT,BUY,62915.0,62437.2914,LOSS,110,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Bullish FVG,1,196,2026-07-18 06:29:16.470087
+BTCUSDT,BUY,62622.18,63621.9029,WIN,50,EMAs Alcistas | RSI Sobreventa | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Bearish BOS,13,197,2026-07-18 06:29:16.471136
+BTCUSDT,BUY,62820.33,63750.0357,WIN,50,RSI Saludable | MACD Bajista | ADX Mercado Lateral | Supertrend Alcista | Equal High | Equal Low | Bullish Order Block,4,206,2026-07-18 06:29:16.472856
+BTCUSDT,BUY,63092.01,62588.3343,LOSS,120,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Mercado Lateral | Supertrend Alcista | Bullish Order Block,14,209,2026-07-18 06:29:16.474242
+BTCUSDT,BUY,63736.0,63124.4043,LOSS,125,EMAs Alcistas | MACD Alcista | ADX Mercado Lateral | Supertrend Alcista | Volumen Institucional | Bullish FVG,7,210,2026-07-18 06:29:16.474928
+BTCUSDT,BUY,63650.0,63048.68,LOSS,155,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | Supertrend Alcista | Volumen Institucional | Bullish BOS | Equal High | Bullish FVG,6,211,2026-07-18 06:29:16.475545
+BTCUSDT,BUY,63761.99,63131.6929,LOSS,100,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | Supertrend Alcista | Volumen Institucional,5,212,2026-07-18 06:29:16.476123
+BTCUSDT,BUY,63576.0,62923.1271,LOSS,85,EMAs Alcistas | MACD Alcista | Supertrend Alcista,6,213,2026-07-18 06:29:16.476959
+BTCUSDT,BUY,63460.01,62793.7529,LOSS,85,EMAs Alcistas | MACD Alcista | Supertrend Alcista,7,214,2026-07-18 06:29:16.477731
+BTCUSDT,BUY,63294.0,62601.5157,LOSS,90,EMAs Alcistas | RSI Saludable | MACD Alcista | Supertrend Alcista | Bearish FVG,8,215,2026-07-18 06:29:16.478509
+BTCUSDT,BUY,63267.99,62568.0143,LOSS,120,EMAs Alcistas | RSI Saludable | MACD Alcista | Supertrend Alcista | Equal Low,7,216,2026-07-18 06:29:16.479210
+BTCUSDT,BUY,63114.0,62406.2857,LOSS,145,EMAs Alcistas | RSI Saludable | MACD Alcista | Supertrend Alcista | Volumen Institucional,7,217,2026-07-18 06:29:16.479880
+BTCUSDT,BUY,62976.0,62268.5914,LOSS,70,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low | Bearish FVG,6,218,2026-07-18 06:29:16.480497
+BTCUSDT,BUY,63089.42,62381.3857,LOSS,90,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High,5,219,2026-07-18 06:29:16.481059
+BTCUSDT,BUY,62904.01,62170.28,LOSS,80,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista,4,220,2026-07-18 06:29:16.481730
+BTCUSDT,BUY,62822.06,62039.87,LOSS,50,RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,2,222,2026-07-18 06:29:16.482342
+BTCUSDT,BUY,61754.01,63251.5271,WIN,50,RSI Sobreventa | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Bearish FVG,3,224,2026-07-18 06:29:16.482945
+BTCUSDT,BUY,61768.21,63353.0186,WIN,50,RSI Sobreventa | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Bearish FVG,2,225,2026-07-18 06:29:16.483373
+BTCUSDT,BUY,63545.98,62552.9543,LOSS,95,RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Bullish FVG,35,227,2026-07-18 06:29:16.485923
+BTCUSDT,BUY,63732.0,62713.1643,LOSS,125,RSI Saludable | MACD Alcista | Supertrend Alcista | Volumen Institucional | Bullish FVG,22,228,2026-07-18 06:29:16.487749
+BTCUSDT,BUY,63587.38,62561.8486,LOSS,130,EMAs Alcistas | RSI Saludable | MACD Alcista | Supertrend Alcista | Bullish FVG,33,229,2026-07-18 06:29:16.490382
+BTCUSDT,BUY,63696.4,62654.9814,LOSS,120,EMAs Alcistas | RSI Saludable | MACD Alcista | Supertrend Alcista | Equal Low,32,230,2026-07-18 06:29:16.492628
+BTCUSDT,BUY,63738.52,62708.8857,LOSS,120,EMAs Alcistas | RSI Saludable | MACD Alcista | Supertrend Alcista | Equal High,19,231,2026-07-18 06:29:16.494033
+BTCUSDT,BUY,63828.0,62780.86,LOSS,130,EMAs Alcistas | RSI Saludable | MACD Alcista | Supertrend Alcista | Equal High | Equal Low,18,232,2026-07-18 06:29:16.495913
+BTCUSDT,BUY,64489.98,63348.5543,LOSS,175,EMAs Alcistas | RSI Saludable | MACD Alcista | Supertrend Alcista | Volumen Institucional | Bullish CHoCH,5,233,2026-07-18 06:29:16.496760
+BTCUSDT,BUY,64244.0,63116.1286,LOSS,130,EMAs Alcistas | RSI Saludable | MACD Alcista | Supertrend Alcista | Bullish FVG,6,234,2026-07-18 06:29:16.497488
+BTCUSDT,BUY,64042.02,62908.4586,LOSS,110,EMAs Alcistas | RSI Saludable | MACD Alcista | Supertrend Alcista,6,235,2026-07-18 06:29:16.498144
+BTCUSDT,BUY,64203.99,63077.3914,LOSS,130,EMAs Alcistas | RSI Saludable | MACD Alcista | Supertrend Alcista | Equal High | Equal Low,4,236,2026-07-18 06:29:16.498823
+BTCUSDT,BUY,63840.0,62724.7171,LOSS,85,EMAs Alcistas | RSI Saludable | MACD Alcista | Supertrend Alcista | Bearish Order Block,13,237,2026-07-18 06:29:16.499904
+BTCUSDT,BUY,63322.01,62235.2686,LOSS,65,EMAs Alcistas | MACD Alcista | Supertrend Alcista | Bearish FVG,30,238,2026-07-18 06:29:16.501943
+BTCUSDT,BUY,63100.01,62147.2257,LOSS,60,EMAs Alcistas | RSI Saludable | MACD Bajista | Supertrend Alcista,28,240,2026-07-18 06:29:16.504028
+BTCUSDT,BUY,63128.01,62320.7986,LOSS,70,EMAs Alcistas | RSI Saludable | MACD Bajista | Supertrend Alcista | Equal High,27,241,2026-07-18 06:29:16.506109
+BTCUSDT,BUY,63340.0,62541.5614,LOSS,60,EMAs Alcistas | RSI Saludable | MACD Bajista | Supertrend Alcista,20,242,2026-07-18 06:29:16.507805
+BTCUSDT,BUY,63930.51,63061.1343,LOSS,145,EMAs Alcistas | RSI Saludable | MACD Alcista | Supertrend Alcista | Volumen Institucional,10,251,2026-07-18 06:29:16.510072
+BTCUSDT,BUY,63983.27,63140.5,LOSS,130,EMAs Alcistas | RSI Saludable | MACD Alcista | Supertrend Alcista | Bullish FVG,9,252,2026-07-18 06:29:16.510916
+BTCUSDT,BUY,64186.0,63332.9743,LOSS,95,EMAs Alcistas | MACD Alcista | Supertrend Alcista | Equal High,4,253,2026-07-18 06:29:16.511482
+BTCUSDT,BUY,63679.99,62785.2986,LOSS,80,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Mercado Lateral | Supertrend Alcista | Equal High | Bearish Order Block,8,254,2026-07-18 06:29:16.512269
+BTCUSDT,BUY,63817.99,62918.17,LOSS,75,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Mercado Lateral | Supertrend Alcista | Bearish FVG,7,255,2026-07-18 06:29:16.512981
+BTCUSDT,BUY,63697.99,62812.2886,LOSS,105,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Mercado Lateral | Supertrend Alcista | Equal High,6,256,2026-07-18 06:29:16.513657
+BTCUSDT,BUY,63423.94,62512.6243,LOSS,105,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Mercado Lateral | Supertrend Alcista | Equal High,9,257,2026-07-18 06:29:16.514454
+BTCUSDT,BUY,63363.99,62403.37,LOSS,55,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Mercado Lateral | Supertrend Alcista | Equal High,9,259,2026-07-18 06:29:16.515403
+BTCUSDT,BUY,63612.77,62621.3429,LOSS,65,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Mercado Lateral | Supertrend Alcista | Equal High | Equal Low,2,260,2026-07-18 06:29:16.515819
+BTCUSDT,BUY,62277.98,63974.9257,WIN,70,EMAs Bajistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,30,279,2026-07-18 06:29:16.520855
+BTCUSDT,BUY,62330.4,63739.2143,WIN,50,EMAs Bajistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,27,282,2026-07-18 06:29:16.522982
+BTCUSDT,BUY,62290.0,63620.6486,WIN,70,EMAs Bajistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,26,283,2026-07-18 06:29:16.524759
+BTCUSDT,BUY,62129.99,63447.7386,WIN,60,EMAs Bajistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High,18,284,2026-07-18 06:29:16.526070
+BTCUSDT,BUY,61916.0,63367.6029,WIN,75,EMAs Bajistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish BOS,17,285,2026-07-18 06:29:16.527845
+BTCUSDT,BUY,61974.34,63366.9829,WIN,50,EMAs Bajistas | RSI Saludable | MACD Alcista | Supertrend Alcista | Equal High | Equal Low,15,287,2026-07-18 06:29:16.529384
+BTCUSDT,BUY,62959.96,64372.9629,WIN,65,MACD Alcista | Supertrend Alcista | Bullish FVG,26,290,2026-07-18 06:29:16.531408
+BTCUSDT,BUY,63000.0,64450.9686,WIN,65,MACD Alcista | Supertrend Alcista | Bullish FVG,26,291,2026-07-18 06:29:16.533137
+BTCUSDT,BUY,62903.65,64336.8186,WIN,65,MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,24,292,2026-07-18 06:29:16.534775
+BTCUSDT,BUY,62953.4,64383.9943,WIN,90,RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,23,293,2026-07-18 06:29:16.536362
+BTCUSDT,BUY,62786.04,64258.1314,WIN,75,RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Bearish Order Block,22,294,2026-07-18 06:29:16.537895
+BTCUSDT,BUY,62786.34,64235.6086,WIN,90,RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,21,295,2026-07-18 06:29:16.539355
+BTCUSDT,BUY,62614.02,64152.9971,WIN,100,RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Bearish Order Block,16,296,2026-07-18 06:29:16.540524
+BTCUSDT,BUY,63028.35,64175.75,TIMEOUT,125,RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low | Bullish Order Block,50,297,2026-07-18 06:29:16.543909
+BTCUSDT,BUY,63016.0,64180.01,TIMEOUT,65,MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,50,298,2026-07-18 06:29:16.547540
+BTCUSDT,BUY,62868.05,64525.95,WIN,65,MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,21,299,2026-07-18 06:29:16.549044
+BTCUSDT,BUY,62700.01,64363.7643,WIN,65,MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,16,300,2026-07-18 06:29:16.550224
+BTCUSDT,BUY,63142.79,64286.0,TIMEOUT,90,MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish Order Block,50,301,2026-07-18 06:29:16.553574
+BTCUSDT,BUY,63219.03,64382.45,TIMEOUT,150,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish BOS | Bullish FVG,50,302,2026-07-18 06:29:16.556876
+BTCUSDT,BUY,63248.1,64355.99,TIMEOUT,115,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,50,303,2026-07-18 06:29:16.560192
+BTCUSDT,BUY,63313.38,64203.08,TIMEOUT,150,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,50,304,2026-07-18 06:29:16.563774
+BTCUSDT,BUY,63274.59,63819.0,TIMEOUT,140,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,50,305,2026-07-18 06:29:16.567294
+BTCUSDT,BUY,63218.78,64671.2857,WIN,150,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,15,306,2026-07-18 06:29:16.568549
+BTCUSDT,BUY,63230.0,64133.61,TIMEOUT,130,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,50,307,2026-07-18 06:29:16.571857
+BTCUSDT,BUY,63113.93,64569.1243,WIN,130,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,12,308,2026-07-18 06:29:16.572927
+BTCUSDT,BUY,63749.86,64223.73,TIMEOUT,175,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Equal Low | Bullish Order Block,50,309,2026-07-18 06:29:16.576200
+BTCUSDT,BUY,63961.99,63999.93,TIMEOUT,115,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Bullish FVG,50,310,2026-07-18 06:29:16.579803
+BTCUSDT,BUY,63947.2,63959.93,TIMEOUT,115,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High,50,311,2026-07-18 06:29:16.583249
+BTCUSDT,BUY,64047.88,63762.46,TIMEOUT,115,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,50,312,2026-07-18 06:29:16.586790
+BTCUSDT,BUY,64115.99,63885.27,TIMEOUT,95,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High,50,313,2026-07-18 06:29:16.590147
+BTCUSDT,BUY,63854.71,63983.18,TIMEOUT,70,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Bearish Order Block,50,314,2026-07-18 06:29:16.593668
+BTCUSDT,BUY,63963.0,63961.61,TIMEOUT,115,EMAs Alcistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,50,315,2026-07-18 06:29:16.597101
+BTCUSDT,BUY,64246.01,63865.76,TIMEOUT,120,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional,50,316,2026-07-18 06:29:16.600479
+BTCUSDT,BUY,64385.09,63717.0829,LOSS,140,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Bullish FVG,11,317,2026-07-18 06:29:16.601556
+BTCUSDT,BUY,64407.8,63730.2386,LOSS,95,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High,10,318,2026-07-18 06:29:16.602421
+BTCUSDT,BUY,64425.18,63754.8843,LOSS,95,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High,7,319,2026-07-18 06:29:16.603096
+BTCUSDT,BUY,64286.64,64203.08,TIMEOUT,95,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Bearish Order Block,50,320,2026-07-18 06:29:16.606602
+BTCUSDT,BUY,64484.0,63715.7514,LOSS,110,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish BOS,7,321,2026-07-18 06:29:16.607545
+BTCUSDT,BUY,63914.87,64177.7,TIMEOUT,90,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Bearish Order Block,50,322,2026-07-18 06:29:16.610840
+BTCUSDT,BUY,64040.0,64078.0,TIMEOUT,80,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista,50,323,2026-07-18 06:29:16.614373
+BTCUSDT,BUY,64140.01,64147.99,TIMEOUT,90,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High,50,324,2026-07-18 06:29:16.617678
+BTCUSDT,BUY,63823.99,64228.59,TIMEOUT,75,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low | Bearish Order Block,50,325,2026-07-18 06:29:16.621043
+BTCUSDT,BUY,63810.0,64198.89,TIMEOUT,80,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista,50,326,2026-07-18 06:29:16.624641
+BTCUSDT,BUY,63917.88,63920.4,TIMEOUT,125,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Equal Low,50,327,2026-07-18 06:29:16.627984
+BTCUSDT,BUY,63841.25,63886.87,TIMEOUT,80,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista,50,328,2026-07-18 06:29:16.631626
+BTCUSDT,BUY,64011.99,63780.0,TIMEOUT,105,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish Order Block,50,329,2026-07-18 06:29:16.635113
+BTCUSDT,BUY,64112.29,64072.01,TIMEOUT,80,EMAs Alcistas | RSI Saludable | MACD Bajista | Supertrend Alcista | Bullish FVG,50,330,2026-07-18 06:29:16.638522
+BTCUSDT,BUY,64161.72,63478.4886,LOSS,80,EMAs Alcistas | RSI Saludable | MACD Bajista | Supertrend Alcista | Equal High | Equal Low,50,331,2026-07-18 06:29:16.641945
+BTCUSDT,BUY,64124.0,63452.2414,LOSS,80,EMAs Alcistas | RSI Saludable | MACD Bajista | Supertrend Alcista | Equal High | Equal Low,49,332,2026-07-18 06:29:16.645159
+BTCUSDT,BUY,64012.95,63317.2171,LOSS,70,EMAs Alcistas | RSI Saludable | MACD Bajista | Supertrend Alcista | Equal Low,49,333,2026-07-18 06:29:16.648440
+BTCUSDT,BUY,64158.04,63523.3171,LOSS,70,EMAs Alcistas | RSI Saludable | MACD Bajista | Supertrend Alcista | Equal Low,47,334,2026-07-18 06:29:16.651637
+BTCUSDT,BUY,64150.42,63574.69,LOSS,70,EMAs Alcistas | RSI Saludable | MACD Bajista | Supertrend Alcista | Equal High,45,335,2026-07-18 06:29:16.655492
+BTCUSDT,BUY,64152.0,63660.4529,LOSS,80,EMAs Alcistas | RSI Saludable | MACD Bajista | Supertrend Alcista | Equal High | Equal Low,26,336,2026-07-18 06:29:16.657732
+BTCUSDT,BUY,64176.01,63714.6171,LOSS,80,EMAs Alcistas | RSI Saludable | MACD Bajista | Supertrend Alcista | Equal High | Equal Low,19,337,2026-07-18 06:29:16.659178
+BTCUSDT,BUY,64219.1,63791.9114,LOSS,80,EMAs Alcistas | RSI Saludable | MACD Bajista | Supertrend Alcista | Equal High | Equal Low,18,338,2026-07-18 06:29:16.660513
+BTCUSDT,BUY,64162.18,63768.1557,LOSS,55,EMAs Alcistas | MACD Bajista | Supertrend Alcista | Equal High | Equal Low,17,339,2026-07-18 06:29:16.661754
+BTCUSDT,BUY,64265.98,63889.8414,LOSS,80,EMAs Alcistas | MACD Bajista | Supertrend Alcista | Equal High | Equal Low | Bullish Order Block,15,340,2026-07-18 06:29:16.662870
+BTCUSDT,BUY,64167.34,63813.6671,LOSS,100,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,15,341,2026-07-18 06:29:16.664012
+BTCUSDT,BUY,64196.0,63873.2314,LOSS,65,EMAs Alcistas | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,13,342,2026-07-18 06:29:16.665049
+BTCUSDT,BUY,64198.0,63906.2571,LOSS,100,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,4,343,2026-07-18 06:29:16.665709
+BTCUSDT,BUY,64195.49,63916.7,LOSS,100,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,3,344,2026-07-18 06:29:16.666216
+BTCUSDT,BUY,64235.66,63970.0986,LOSS,125,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low | Bullish Order Block,2,345,2026-07-18 06:29:16.666768
+BTCUSDT,BUY,64350.07,64066.1671,LOSS,125,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish BOS | Bullish FVG,1,346,2026-07-18 06:29:16.667180
+BTCUSDT,BUY,64175.75,63851.5843,LOSS,100,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Equal High | Bearish Order Block,8,347,2026-07-18 06:29:16.667936
+BTCUSDT,BUY,64180.01,63854.7443,LOSS,80,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista,7,348,2026-07-18 06:29:16.668617
+BTCUSDT,BUY,64315.53,63974.4243,LOSS,80,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista,6,349,2026-07-18 06:29:16.669240
+BTCUSDT,BUY,64327.99,63990.7457,LOSS,110,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Bullish FVG,5,350,2026-07-18 06:29:16.670033
+BTCUSDT,BUY,64286.0,63948.2057,LOSS,75,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low | Bearish Order Block,4,351,2026-07-18 06:29:16.670604
+BTCUSDT,BUY,64382.45,64041.25,LOSS,115,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low | Bullish Order Block,3,352,2026-07-18 06:29:16.671063
+BTCUSDT,BUY,64355.99,64016.9443,LOSS,120,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low | Bullish FVG,2,353,2026-07-18 06:29:16.671456
+BTCUSDT,BUY,64203.08,63844.9729,LOSS,90,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High,1,354,2026-07-18 06:29:16.671789
+BTCUSDT,BUY,63819.0,63419.9357,LOSS,70,EMAs Alcistas | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Bearish FVG,26,355,2026-07-18 06:29:16.673545
+BTCUSDT,BUY,64070.39,63606.4943,LOSS,85,RSI Saludable | MACD Bajista | Supertrend Alcista | Volumen Institucional | Equal High | Bullish FVG,22,358,2026-07-18 06:29:16.675337
+BTCUSDT,BUY,63961.61,63495.08,LOSS,65,RSI Saludable | MACD Bajista | Supertrend Alcista | Volumen Institucional | Equal High,16,365,2026-07-18 06:29:16.677427
+BTCUSDT,BUY,64018.01,63543.6386,LOSS,55,RSI Saludable | MACD Bajista | Supertrend Alcista | Equal Low | Bullish Order Block,14,367,2026-07-18 06:29:16.678696
+BTCUSDT,BUY,64203.08,63772.6914,LOSS,135,RSI Saludable | MACD Alcista | Supertrend Alcista | Bullish CHoCH | Equal Low | Bullish Order Block,8,370,2026-07-18 06:29:16.679735
+BTCUSDT,BUY,64176.0,63776.5371,LOSS,140,EMAs Alcistas | RSI Saludable | MACD Alcista | Supertrend Alcista | Equal High | Bullish FVG,7,371,2026-07-18 06:29:16.680424
+BTCUSDT,BUY,64177.7,63769.1614,LOSS,120,EMAs Alcistas | RSI Saludable | MACD Alcista | Supertrend Alcista | Equal High,6,372,2026-07-18 06:29:16.681073
+BTCUSDT,BUY,64078.0,63675.0957,LOSS,130,EMAs Alcistas | RSI Saludable | MACD Alcista | Supertrend Alcista | Equal High | Equal Low,5,373,2026-07-18 06:29:16.681834
+BTCUSDT,BUY,64147.99,63769.4971,LOSS,115,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Mercado Lateral | Supertrend Alcista | Equal High | Equal Low,4,374,2026-07-18 06:29:16.682415
+BTCUSDT,BUY,64228.59,63850.3514,LOSS,65,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Mercado Lateral | Supertrend Alcista | Bearish CHoCH,3,375,2026-07-18 06:29:16.682880
+BTCUSDT,BUY,64198.89,63855.8014,LOSS,125,EMAs Alcistas | MACD Alcista | Supertrend Alcista | Equal High | Equal Low | Bullish FVG,2,376,2026-07-18 06:29:16.683279
+BTCUSDT,BUY,63920.4,63552.7529,LOSS,105,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Mercado Lateral | Supertrend Alcista | Equal High,4,377,2026-07-18 06:29:16.683785
+BTCUSDT,BUY,64072.01,63608.8314,LOSS,95,RSI Saludable | MACD Bajista | ADX Mercado Lateral | Supertrend Alcista | Volumen Institucional | Bullish CHoCH | Bullish Order Block,1,380,2026-07-18 06:29:16.684406
+BTCUSDT,SELL,63375.99,62269.1414,WIN,-80,EMAs Bajistas | MACD Bajista | ADX Mercado Lateral | Supertrend Alcista | Bearish FVG,11,382,2026-07-18 06:29:16.685473
+BTCUSDT,SELL,62672.0,63295.6714,LOSS,-60,EMAs Bajistas | RSI Sobreventa | MACD Bajista | ADX Mercado Lateral | Supertrend Alcista | Bearish FVG,4,384,2026-07-18 06:29:16.686128
+BTCUSDT,SELL,62625.15,63388.58,LOSS,-50,EMAs Bajistas | RSI Sobreventa | MACD Bajista | Supertrend Alcista | Bearish Order Block,24,392,2026-07-18 06:29:16.688974
+BTCUSDT,SELL,62020.0,62769.6957,LOSS,-70,EMAs Bajistas | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Bearish BOS | Bearish FVG,11,398,2026-07-18 06:29:16.690605
+BTCUSDT,BUY,62334.52,63917.1714,WIN,90,EMAs Bajistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish CHoCH | Equal Low | Bullish Order Block,13,403,2026-07-18 06:29:16.692168
+BTCUSDT,BUY,62549.54,64160.4457,WIN,70,EMAs Bajistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish FVG,13,404,2026-07-18 06:29:16.693212
+BTCUSDT,BUY,62540.42,64126.2714,WIN,80,EMAs Bajistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Bullish FVG,12,405,2026-07-18 06:29:16.694172
+BTCUSDT,BUY,62544.0,64099.8457,WIN,60,EMAs Bajistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High,11,406,2026-07-18 06:29:16.695073
+BTCUSDT,BUY,62572.89,64039.4871,WIN,70,EMAs Bajistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,10,407,2026-07-18 06:29:16.695914
+BTCUSDT,BUY,62745.23,64079.0471,WIN,50,EMAs Bajistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,9,408,2026-07-18 06:29:16.696727
+BTCUSDT,BUY,62737.0,63999.4057,WIN,100,EMAs Bajistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish CHoCH | Bullish FVG,8,409,2026-07-18 06:29:16.697718
+BTCUSDT,BUY,62624.05,63826.2043,WIN,50,EMAs Bajistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,6,410,2026-07-18 06:29:16.698389
+BTCUSDT,BUY,62800.0,63897.0514,WIN,70,MACD Alcista | Supertrend Alcista | Bullish Order Block,2,414,2026-07-18 06:29:16.699207
+BTCUSDT,BUY,62844.99,63910.7729,WIN,55,MACD Alcista | Supertrend Alcista | Equal High,1,415,2026-07-18 06:29:16.699552
+BTCUSDT,BUY,63960.0,65281.7857,WIN,80,RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional,25,416,2026-07-18 06:29:16.701287
+BTCUSDT,BUY,63840.01,65167.0471,WIN,100,RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Bullish FVG,17,417,2026-07-18 06:29:16.702533
+BTCUSDT,BUY,64305.02,64484.0,TIMEOUT,105,RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Bullish Order Block,50,418,2026-07-18 06:29:16.705920
+BTCUSDT,BUY,64743.99,63942.92,LOSS,165,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional | Bullish BOS | Bullish FVG,41,419,2026-07-18 06:29:16.708835
+BTCUSDT,BUY,64730.0,63932.3814,LOSS,105,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish FVG,40,420,2026-07-18 06:29:16.711590
+BTCUSDT,BUY,64621.43,64271.84,TIMEOUT,85,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,50,421,2026-07-18 06:29:16.714958
+BTCUSDT,BUY,64571.98,64114.27,TIMEOUT,85,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,50,422,2026-07-18 06:29:16.718258
+BTCUSDT,BUY,64569.59,64161.99,TIMEOUT,105,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,50,423,2026-07-18 06:29:16.721678
+BTCUSDT,BUY,64572.02,63968.0,TIMEOUT,85,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,50,424,2026-07-18 06:29:16.725184
+BTCUSDT,BUY,64676.9,63822.9443,LOSS,85,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,50,425,2026-07-18 06:29:16.728608
+BTCUSDT,BUY,64860.89,63967.4971,LOSS,95,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,34,426,2026-07-18 06:29:16.731126
+BTCUSDT,BUY,65043.98,64142.26,LOSS,95,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High,32,427,2026-07-18 06:29:16.733492
+BTCUSDT,BUY,64824.58,63922.78,LOSS,105,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,32,428,2026-07-18 06:29:16.735680
+BTCUSDT,BUY,64674.35,63772.6729,LOSS,85,EMAs Alcistas | RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,46,429,2026-07-18 06:29:16.738719
+BTCUSDT,BUY,64490.87,63723.58,LOSS,110,EMAs Alcistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Bearish FVG,46,430,2026-07-18 06:29:16.741819
+BTCUSDT,BUY,64792.01,64043.8371,LOSS,90,EMAs Alcistas | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low | Bullish Order Block,29,431,2026-07-18 06:29:16.743758
+BTCUSDT,BUY,64746.01,64082.6243,LOSS,90,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High,28,432,2026-07-18 06:29:16.745629
+BTCUSDT,BUY,64944.06,64339.15,LOSS,105,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish Order Block,26,433,2026-07-18 06:29:16.747443
+BTCUSDT,BUY,64814.0,64184.4457,LOSS,105,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish BOS,25,434,2026-07-18 06:29:16.749189
+BTCUSDT,BUY,64549.34,63935.1057,LOSS,80,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista,25,435,2026-07-18 06:29:16.750874
+BTCUSDT,BUY,64768.01,64142.9129,LOSS,70,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low | Bearish FVG,23,436,2026-07-18 06:29:16.752467
+BTCUSDT,BUY,64671.83,64039.8557,LOSS,80,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista,23,437,2026-07-18 06:29:16.754102
+BTCUSDT,BUY,64663.0,64022.09,LOSS,100,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,22,438,2026-07-18 06:29:16.755637
+BTCUSDT,BUY,64732.15,64122.1914,LOSS,90,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,20,439,2026-07-18 06:29:16.757077
+BTCUSDT,BUY,65164.0,64545.4843,LOSS,135,EMAs Alcistas | RSI Saludable | MACD Bajista | Supertrend Alcista | Volumen Institucional | Bullish CHoCH | Equal Low,12,440,2026-07-18 06:29:16.758052
+BTCUSDT,BUY,65117.99,64439.0457,LOSS,115,EMAs Alcistas | RSI Saludable | MACD Bajista | Supertrend Alcista | Volumen Institucional | Bullish FVG,12,441,2026-07-18 06:29:16.759017
+BTCUSDT,BUY,65399.81,64699.8429,LOSS,105,EMAs Alcistas | RSI Saludable | MACD Bajista | Supertrend Alcista | Volumen Institucional | Equal High,9,442,2026-07-18 06:29:16.759810
+BTCUSDT,BUY,65427.61,64709.1157,LOSS,110,EMAs Alcistas | MACD Alcista | Supertrend Alcista | Bullish BOS,8,443,2026-07-18 06:29:16.760552
+BTCUSDT,BUY,65120.79,64342.6986,LOSS,55,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Mercado Lateral | Supertrend Alcista | Volumen Institucional | Bearish Order Block,15,444,2026-07-18 06:29:16.761677
+BTCUSDT,BUY,64860.0,64082.3671,LOSS,55,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Mercado Lateral | Supertrend Alcista | Equal High,14,446,2026-07-18 06:29:16.762884
+BTCUSDT,BUY,64968.01,64248.6529,LOSS,55,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Mercado Lateral | Supertrend Alcista | Equal High,11,448,2026-07-18 06:29:16.763943
+BTCUSDT,BUY,64834.31,64138.1171,LOSS,55,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Mercado Lateral | Supertrend Alcista | Equal High,10,449,2026-07-18 06:29:16.764824
+BTCUSDT,BUY,64866.93,64176.0543,LOSS,65,EMAs Alcistas | RSI Saludable | MACD Bajista | ADX Mercado Lateral | Supertrend Alcista | Equal High | Equal Low,9,450,2026-07-18 06:29:16.765621
+BTCUSDT,BUY,64090.0,63485.8929,LOSS,70,RSI Sobreventa | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional,16,461,2026-07-18 06:29:16.768432
+BTCUSDT,BUY,64221.34,63612.1929,LOSS,50,MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low | Bullish Order Block,15,462,2026-07-18 06:29:16.769588
+BTCUSDT,BUY,64376.0,63706.8386,LOSS,65,RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish Order Block,11,465,2026-07-18 06:29:16.770783
+BTCUSDT,BUY,64543.51,63847.92,LOSS,60,RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish FVG,9,466,2026-07-18 06:29:16.771577
+BTCUSDT,BUY,64704.73,63989.4243,LOSS,60,RSI Saludable | MACD Bajista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High | Equal Low,2,467,2026-07-18 06:29:16.771972
+BTCUSDT,BUY,64484.0,63737.6086,LOSS,100,RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,8,468,2026-07-18 06:29:16.772703
+BTCUSDT,SELL,63546.24,64276.6886,LOSS,-85,EMAs Bajistas | MACD Bajista | ADX Mercado Lateral | Supertrend Alcista | Bearish Order Block,17,477,2026-07-18 06:29:16.775073
+BTCUSDT,SELL,63570.0,64240.2486,LOSS,-50,EMAs Bajistas | MACD Bajista | ADX Mercado Lateral | Supertrend Alcista | Equal High,15,479,2026-07-18 06:29:16.776371
+BTCUSDT,BUY,63153.99,63153.99,OPEN,60,EMAs Bajistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional,10,489,2026-07-18 06:29:16.778719
+BTCUSDT,BUY,63174.0,63174.0,OPEN,60,EMAs Bajistas | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Volumen Institucional,9,490,2026-07-18 06:29:16.779535
+BTCUSDT,BUY,63452.0,63452.0,OPEN,50,EMAs Bajistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,8,491,2026-07-18 06:29:16.780303
+BTCUSDT,BUY,63594.0,63594.0,OPEN,50,EMAs Bajistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista,7,492,2026-07-18 06:29:16.780981
+BTCUSDT,BUY,64049.86,64049.86,OPEN,70,EMAs Bajistas | RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish FVG,6,493,2026-07-18 06:29:16.781603
+BTCUSDT,BUY,64259.73,64259.73,OPEN,110,RSI Saludable | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Bullish FVG,5,494,2026-07-18 06:29:16.782171
+BTCUSDT,BUY,64120.0,64120.0,OPEN,55,RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal Low,3,496,2026-07-18 06:29:16.782764
+BTCUSDT,BUY,64110.0,64110.0,OPEN,55,RSI Sobrecompra | MACD Alcista | ADX Tendencia Fuerte | Supertrend Alcista | Equal High,2,497,2026-07-18 06:29:16.783159

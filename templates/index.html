@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot de Trading Institucional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen p-6">
+    <div class="max-w-6xl mx-auto">
+        <!-- Header -->
+        <header class="flex justify-between items-center mb-8 bg-gray-800 p-4 rounded-xl shadow-lg border border-gray-700">
+            <h1 class="text-2xl font-bold text-emerald-400">⚡ Panel de Control Institucional</h1>
+            <div class="text-right">
+                <span class="text-sm text-gray-400">Balance USDT:</span>
+                <span id="balance-display" class="text-xl font-semibold text-emerald-300 ml-2">Cargando...</span>
+            </div>
+        </header>
+
+        <!-- Controles de Escaneo -->
+        <div class="flex gap-4 mb-8">
+            <button onclick="scanMarket(false)" class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-5 py-2.5 rounded-lg shadow transition">
+                Escanear Lista Base
+            </button>
+            <button onclick="scanMarket(true)" class="bg-emerald-600 hover:bg-emerald-700 text-white font-medium px-5 py-2.5 rounded-lg shadow transition">
+                Escanear Top Volumen Dinámico 🚀
+            </button>
+        </div>
+
+        <!-- Sección de Señales -->
+        <section>
+            <h2 class="text-xl font-semibold mb-4 text-gray-200">Señales Detectadas</h2>
+            <div id="signals-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <p class="text-gray-400 col-span-full">No hay señales activas. Ejecuta un escaneo para buscar oportunidades.</p>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        async function fetchBalance() {
+            try {
+                const res = await fetch('/api/balance');
+                const data = await res.json();
+                document.getElementById('balance-display').innerText = `${data.free.toFixed(2)} USDT`;
+            } catch (e) {
+                console.error("Error obteniendo balance", e);
+            }
+        }
+
+        async function scanMarket(dynamic) {
+            const container = document.getElementById('signals-container');
+            container.innerHTML = `<p class="text-amber-400 col-span-full animate-pulse">Escaneando el mercado en Binance... Por favor espera.</p>`;
+            
+            try {
+                const res = await fetch('/api/scan', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({dynamic: dynamic})
+                });
+                const data = await res.json();
+                renderSignals(data.signals);
+            } catch (e) {
+                console.error("Error en escaneo", e);
+                container.innerHTML = `<p class="text-red-400 col-span-full">Error al conectar con el servidor.</p>`;
+            }
+        }
+
+        function renderSignals(signals) {
+            const container = document.getElementById('signals-container');
+            if (!signals || signals.length === 0) {
+                container.innerHTML = `<p class="text-gray-400 col-span-full">No se encontraron oportunidades claras en este ciclo.</p>`;
+                return;
+            }
+
+            container.innerHTML = '';
+            signals.forEach(sig => {
+                const isBuy = sig.action === 'BUY';
+                const actionClass = isBuy ? 'text-emerald-400 bg-emerald-950/50 border-emerald-800' : 'text-red-400 bg-red-950/50 border-red-800';
+                
+                const card = document.createElement('div');
+                card.className = `p-5 rounded-xl border ${actionClass} shadow-md flex flex-col justify-between`;
+                card.innerHTML = `
+                    <div>
+                        <div class="flex justify-between items-center mb-3">
+                            <span class="text-lg font-bold">${sig.symbol}</span>
+                            <span class="px-2.5 py-1 rounded text-xs font-semibold ${isBuy ? 'bg-emerald-600 text-white' : 'bg-red-600 text-white'}">${sig.action}</span>
+                        </div>
+                        <p class="text-sm text-gray-300 mb-1">Precio: <b class="text-white">$${sig.price}</b></p>
+                        <p class="text-sm text-gray-300 mb-1">Puntuación: <b class="text-white">${sig.score}</b></p>
+                        <p class="text-xs text-gray-400 mb-3 bg-gray-900/40 p-2 rounded">${sig.reason}</p>
+                        <div class="text-xs text-gray-300 grid grid-cols-2 gap-2 mb-4 bg-gray-900/60 p-2 rounded">
+                            <div>SL: <span class="text-red-300">$${sig.stop_loss}</span></div>
+                            <div>TP: <span class="text-emerald-300">$${sig.take_profit}</span></div>
+                        </div>
+                    </div>
+                    <button onclick="executeOrder('${sig.symbol}', '${sig.action}')" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 rounded-lg text-sm transition shadow">
+                        Ejecutar Orden (15 USDT)
+                    </button>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        async function executeOrder(symbol, action) {
+            if(!confirm(`¿Estás seguro de ejecutar una orden de ${action} en ${symbol}?`)) return;
+            
+            try {
+                const res = await fetch('/api/execute', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({symbol: symbol, action: action, amount: 15})
+                });
+                const data = await res.json();
+                if(data.status === 'success') {
+                    alert(`¡Orden ejecutada con éxito en ${symbol}!`);
+                    fetchBalance();
+                } else {
+                    alert(`Error: ${data.message}`);
+                }
+            } catch(e) {
+                alert("Error al comunicarse con el servidor de ejecución.");
+            }
+        }
+
+        // Cargar balance inicial
+        fetchBalance();
+    </script>
+</body>
+</html>

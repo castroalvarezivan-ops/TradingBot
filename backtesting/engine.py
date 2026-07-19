@@ -1,5 +1,5 @@
 # ==========================================
-# TradingBot V2.6.3
+# TradingBot V2.6.6
 # Archivo: backtesting/engine.py
 # ==========================================
 
@@ -29,11 +29,11 @@ def run_backtest(df):
           ↓
     Trade Executor
           ↓
-    Portfolio
+    Portfolio Manager
           ↓
     Analytics
           ↓
-    Export CSV
+    Exportador
     """
 
     trades = []
@@ -83,6 +83,10 @@ def run_backtest(df):
         ):
             continue
 
+        # =====================================
+        # Crear posición
+        # =====================================
+
         position = Position(
 
             symbol="BTCUSDT",
@@ -103,17 +107,41 @@ def run_backtest(df):
 
         portfolio.open_position(position)
 
+        # =====================================
+        # Simular operación
+        # =====================================
+
         result, exit_price, bars_held = execute_trade(
             df,
             i,
             action
         )
 
+        # =====================================
+        # Actualizar Portfolio
+        # =====================================
+
         portfolio.close_position(
-            position,
-            exit_price,
-            result
+
+            position=position,
+
+            exit_price=exit_price,
+
+            result=result,
+
+            score=score,
+
+            confidence=score,   # Temporal (V2.6.6)
+
+            bars_held=bars_held
+
         )
+
+        # =====================================
+        # Historial temporal
+        # (Será eliminado en V2.7 cuando
+        # todo use TradeHistory)
+        # =====================================
 
         trades.append(
 
@@ -130,6 +158,8 @@ def run_backtest(df):
                 "result": result,
 
                 "score": score,
+
+                "confidence": score,
 
                 "reason": reason,
 
@@ -148,14 +178,21 @@ def run_backtest(df):
     # ==========================================
 
     generate_report(
+
         portfolio,
+
         trades
+
     )
 
     # ==========================================
-    # Exportar CSV
+    # Exportador
     # ==========================================
 
-    export_trades(trades)
+    export_trades(
+
+        trades
+
+    )
 
     return trades

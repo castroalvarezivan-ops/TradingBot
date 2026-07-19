@@ -1,8 +1,14 @@
-# V2.6.2
+# ==========================================
+# TradingBot V2.8.1
 # Archivo: strategy/decision_engine.py
+# ==========================================
+
+import logging
 
 from strategy.score_engine import calculate_score
 from strategy.confidence import calculate_confidence
+
+from engines.resilience_engine.circuit_breaker import circuit_breaker
 
 from config.config import (
     BUY_THRESHOLD,
@@ -11,11 +17,12 @@ from config.config import (
     ENABLE_CONFIDENCE_ENGINE
 )
 
+logger = logging.getLogger("DecisionEngine")
+
 
 def make_decision(score, reasons):
     """
     Convierte el Score institucional en una decisión.
-    Mantiene compatibilidad con el resto del proyecto.
     """
 
     action = "HOLD"
@@ -26,42 +33,82 @@ def make_decision(score, reasons):
     elif score <= SELL_THRESHOLD:
         action = "SELL"
 
-    return action, score, " | ".join(reasons)
+    return action, score, " | ".join(reasons) if reasons else "NO_SIGNALS"
 
 
 def evaluate(latest):
     """
-    Evalúa el mercado utilizando:
+    Motor principal de decisión.
 
-    - Score Engine
-    - Confidence Engine (opcional)
+    Flujo:
+
+    Circuit Breaker
+            ↓
+    Score Engine
+            ↓
+    Confidence Engine
+            ↓
+    Decisión Final
     """
 
-    score, reasons = calculate_score(latest)
+    # ==========================================
+    # Circuit Breaker
+    # ==========================================
 
-    # ==========================
-    # CONFIDENCE ENGINE
-    # ==========================
+    if not circuit_breaker.can_proceed():
 
-    if ENABLE_CONFIDENCE_ENGINE:
+        logger.warning(
+            "Decision bloqueada por Circuit Breaker."
+        )
 
-        confidence, level = calculate_confidence(score)
+        return "HOLD", 0, "SYSTEM_PROTECTION"
 
-        if DEBUG_MODE:
-            print(
-                f"[Decision] "
-                f"Score={score} | "
-                f"Confidence={confidence:.1f}% | "
-                f"Level={level}"
-            )
+    try:
 
-    else:
+        # ==========================================
+        # Score Engine
+        # ==========================================
 
-        if DEBUG_MODE:
-            print(f"[Decision] Score={score}")
+        score, reasons = calculate_score(latest)
 
-    # ==========================
-    # DECISIÓN FINAL
-    # ==========================
+        # ==========================================
+        # Confidence Engine
+        # ==========================================
 
-    return make_decision(score, reasons)
+        if ENABLE_CONFIDENCE_ENGINE:
+
+            confidence, level = calculate_confidence(score)
+
+            if DEBUG_MODE:
+
+                logger.info(
+                    f"Score={score} | "
+                    f"Confidence={confidence:.1f}% | "
+                    f"Level={level}"
+                )
+
+        else:
+
+            if DEBUG_MODE:
+
+                logger.info(
+                    f"Score={score}"
+                )
+
+        # ==========================================
+        # Todo salió bien
+        # ==========================================
+
+        circuit_breaker.report_success()
+
+        return make_decision(score, reasons)
+
+    except Exception:
+
+        logger.exception(
+            "Error crítico en Decision Engine."
+        )
+
+        circuit_breaker.report_failure()
+
+        return "HOLD", 0, "CRITICAL_DECISION_ERROR"

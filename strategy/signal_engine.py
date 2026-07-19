@@ -1,22 +1,29 @@
+# ==========================================
+# TradingBot V2.9.0
+# Archivo: strategy/signal_engine.py
+# ==========================================
+
 from datetime import datetime
 
+from models.signal import Signal
 
-def calculate_confidence(score):
+
+def calculate_confidence(score: float) -> float:
     """
-    Convierte el score en un porcentaje de confianza.
+    Convierte el score institucional en un porcentaje de confianza.
     """
 
     confidence = abs(score)
 
     if confidence > 100:
-        confidence = 100
+        confidence = 100.0
 
     return confidence
 
 
-def risk_level(confidence):
+def risk_level(confidence: float) -> str:
     """
-    Determina el nivel de riesgo.
+    Determina el nivel de riesgo según la confianza.
     """
 
     if confidence >= 90:
@@ -28,27 +35,29 @@ def risk_level(confidence):
     return "HIGH"
 
 
-def build_signal(action, score, reason):
+def build_signal(
+    symbol: str,
+    timeframe: str,
+    action: str,
+    score: float,
+    reason: str,
+    strategy: str = "Default"
+) -> Signal:
     """
-    Construye la señal institucional.
+    Construye una señal institucional utilizando el modelo Signal.
     """
 
     confidence = calculate_confidence(score)
 
-    signal = {
-
-        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-
-        "action": action,
-
-        "score": score,
-
-        "confidence": confidence,
-
-        "risk_level": risk_level(confidence),
-
-        "reason": reason
-
-    }
+    signal = Signal(
+        symbol=symbol,
+        timeframe=timeframe,
+        action=action,
+        score=score,
+        confidence=confidence,
+        reason=reason,
+        timestamp=datetime.now(),
+        strategy=strategy
+    )
 
     return signal

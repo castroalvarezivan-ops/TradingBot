@@ -1,17 +1,39 @@
-import pandas as pd
+# ==========================================
+# TradingBot V2.9.1
+# Archivo: strategy/multi_timeframe.py
+# ==========================================
+
+"""
+Multi Timeframe Engine
+
+Evalúa la tendencia institucional en múltiples
+temporalidades utilizando las EMAs.
+
+Este módulo NO toma decisiones.
+
+Únicamente informa el estado de cada timeframe
+para que el Decision Engine pueda utilizarlo.
+"""
 
 
 def check_trend(df):
     """
-    Evalúa la tendencia usando las EMAs.
+    Determina la tendencia usando EMAs.
     """
+
+    if df is None or len(df) == 0:
+        return "UNKNOWN"
 
     latest = df.iloc[-1]
 
-    if latest["ema_9"] > latest["ema_21"] > latest["ema_50"]:
+    ema9 = latest["ema_9"]
+    ema21 = latest["ema_21"]
+    ema50 = latest["ema_50"]
+
+    if ema9 > ema21 > ema50:
         return "BULLISH"
 
-    elif latest["ema_9"] < latest["ema_21"] < latest["ema_50"]:
+    elif ema9 < ema21 < ema50:
         return "BEARISH"
 
     return "SIDEWAYS"
@@ -21,10 +43,10 @@ def analyze_multi_timeframe(
     df_4h,
     df_1h,
     df_15m,
-    df_5m
+    df_5m,
 ):
     """
-    Analiza la tendencia en múltiples temporalidades.
+    Analiza la tendencia de todas las temporalidades.
     """
 
     trend_4h = check_trend(df_4h)
@@ -44,11 +66,33 @@ def analyze_multi_timeframe(
         and trend_15m == "BEARISH"
     )
 
+    alignment = 0
+
+    for trend in (
+        trend_4h,
+        trend_1h,
+        trend_15m,
+        trend_5m,
+    ):
+        if trend == "BULLISH":
+            alignment += 25
+        elif trend == "BEARISH":
+            alignment += 25
+
     return {
+
         "4H": trend_4h,
+
         "1H": trend_1h,
+
         "15M": trend_15m,
+
         "5M": trend_5m,
+
         "bullish": bullish,
-        "bearish": bearish
+
+        "bearish": bearish,
+
+        "alignment": alignment
+
     }

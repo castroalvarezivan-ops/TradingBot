@@ -1,6 +1,6 @@
 from flask import Flask, render_template, jsonify, request
 
-from config.config import SYMBOLS
+from config.config import SYMBOLS, DEBUG_MODE
 from scanner.scanner import (
     get_dynamic_symbols,
     fetch_candles,

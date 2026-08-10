@@ -1,0 +1,148 @@
+/* ==========================================
+   Trading Advisor V8
+========================================== */
+
+#advisor-panel{
+
+    background:#111827;
+
+    border:1px solid #1f2937;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    min-height:260px;
+
+    transition:.35s;
+
+    line-height:1.8;
+
+}
+
+#advisor-panel:hover{
+
+    border-color:#00ff88;
+
+    box-shadow:
+        0 0 25px rgba(0,255,136,.18);
+
+}
+
+/* ==========================================
+TÍTULO
+========================================== */
+
+#advisor-panel h3{
+
+    font-size:30px;
+
+    color:#00ff88;
+
+    margin-bottom:15px;
+
+}
+
+/* ==========================================
+TEXTOS
+========================================== */
+
+#advisor-panel b{
+
+    color:#ffffff;
+
+}
+
+#advisor-panel div{
+
+    color:#cbd5e1;
+
+}
+
+/* ==========================================
+RECOMENDACIÓN
+========================================== */
+
+.advisor-buy{
+
+    color:#00ff88;
+
+    font-weight:bold;
+
+}
+
+.advisor-wait{
+
+    color:#facc15;
+
+    font-weight:bold;
+
+}
+
+.advisor-sell{
+
+    color:#ef4444;
+
+    font-weight:bold;
+
+}
+
+/* ==========================================
+BLOQUES
+========================================== */
+
+.advisor-block{
+
+    margin-top:18px;
+
+    padding:15px;
+
+    border-left:4px solid #00ff88;
+
+    background:#0f172a;
+
+    border-radius:10px;
+
+}
+
+/* ==========================================
+BADGES
+========================================== */
+
+.badge{
+
+    display:inline-block;
+
+    padding:6px 14px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+    font-weight:bold;
+
+}
+
+.badge-buy{
+
+    background:#14532d;
+
+    color:#22c55e;
+
+}
+
+.badge-wait{
+
+    background:#3f3f46;
+
+    color:#facc15;
+
+}
+
+.badge-sell{
+
+    background:#450a0a;
+
+    color:#ef4444;
+
+}

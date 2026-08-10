@@ -1,0 +1,279 @@
+/* ==========================================
+   TradingBot Executive V8
+   Animaciones
+========================================== */
+
+/* ==========================================
+FADE IN
+========================================== */
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+.fade-in{
+
+    animation:fadeIn .6s ease forwards;
+
+}
+
+/* ==========================================
+PULSE VERDE
+========================================== */
+
+@keyframes pulseGreen{
+
+    0%{
+
+        box-shadow:0 0 0 rgba(0,255,136,0);
+
+    }
+
+    50%{
+
+        box-shadow:0 0 30px rgba(0,255,136,.45);
+
+    }
+
+    100%{
+
+        box-shadow:0 0 0 rgba(0,255,136,0);
+
+    }
+
+}
+
+.pulse-green{
+
+    animation:pulseGreen 2s infinite;
+
+}
+
+/* ==========================================
+PULSE ORO
+========================================== */
+
+@keyframes pulseGold{
+
+    0%{
+
+        box-shadow:0 0 0 rgba(255,215,0,0);
+
+    }
+
+    50%{
+
+        box-shadow:0 0 40px rgba(255,215,0,.55);
+
+    }
+
+    100%{
+
+        box-shadow:0 0 0 rgba(255,215,0,0);
+
+    }
+
+}
+
+.pulse-gold{
+
+    animation:pulseGold 1.6s infinite;
+
+}
+
+/* ==========================================
+PULSE ROJO
+========================================== */
+
+@keyframes pulseRed{
+
+    0%{
+
+        box-shadow:0 0 0 rgba(239,68,68,0);
+
+    }
+
+    50%{
+
+        box-shadow:0 0 25px rgba(239,68,68,.45);
+
+    }
+
+    100%{
+
+        box-shadow:0 0 0 rgba(239,68,68,0);
+
+    }
+
+}
+
+.pulse-red{
+
+    animation:pulseRed 2s infinite;
+
+}
+
+/* ==========================================
+GLOW
+========================================== */
+
+.glow-green{
+
+    border-color:#00ff88;
+
+    box-shadow:
+
+        0 0 20px rgba(0,255,136,.30),
+
+        0 0 40px rgba(0,255,136,.15);
+
+}
+
+.glow-gold{
+
+    border-color:#FFD700;
+
+    box-shadow:
+
+        0 0 25px rgba(255,215,0,.45),
+
+        0 0 50px rgba(255,215,0,.20);
+
+}
+
+.glow-red{
+
+    border-color:#ef4444;
+
+    box-shadow:
+
+        0 0 25px rgba(239,68,68,.30);
+
+}
+
+/* ==========================================
+HOVER
+========================================== */
+
+.hover-lift{
+
+    transition:.30s;
+
+}
+
+.hover-lift:hover{
+
+    transform:translateY(-5px);
+
+}
+
+/* ==========================================
+SCALE
+========================================== */
+
+.scale-hover{
+
+    transition:.25s;
+
+}
+
+.scale-hover:hover{
+
+    transform:scale(1.03);
+
+}
+
+/* ==========================================
+SPIN LOADER
+========================================== */
+
+@keyframes spin{
+
+    from{
+
+        transform:rotate(0deg);
+
+    }
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+}
+
+.loading{
+
+    animation:spin 1s linear infinite;
+
+}
+
+/* ==========================================
+PREMIUM SHINE
+========================================== */
+
+@keyframes shine{
+
+    0%{
+
+        background-position:-300px;
+
+    }
+
+    100%{
+
+        background-position:300px;
+
+    }
+
+}
+
+.premium-card{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.premium-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+        linear-gradient(
+            120deg,
+            transparent,
+            rgba(255,255,255,.15),
+            transparent
+        );
+
+    background-size:300px 100%;
+
+    animation:shine 4s linear infinite;
+
+    pointer-events:none;
+
+}

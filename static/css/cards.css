@@ -1,0 +1,219 @@
+/* ==========================================
+   CARDS V8
+========================================== */
+
+.card-executive{
+
+    background:#0f172a;
+
+    border:1px solid #1e293b;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    transition:all .35s ease;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.30);
+
+}
+
+.card-executive:hover{
+
+    transform:translateY(-5px);
+
+    border-color:#00ff88;
+
+    box-shadow:
+        0 0 25px rgba(0,255,136,.20),
+        0 15px 35px rgba(0,0,0,.45);
+
+}
+
+/* ==========================================
+TÍTULOS
+========================================== */
+
+.card-executive h2{
+
+    font-size:13px;
+
+    color:#94a3b8;
+
+    text-transform:uppercase;
+
+    letter-spacing:1px;
+
+    margin-bottom:15px;
+
+}
+
+/* ==========================================
+VALORES
+========================================== */
+
+.card-executive div{
+
+    font-size:30px;
+
+    font-weight:bold;
+
+}
+
+/* ==========================================
+SIGNAL CARD
+========================================== */
+
+.signal-card{
+
+    background:#111827;
+
+    border:1px solid #374151;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    overflow:hidden;
+
+    transition:.35s;
+
+    position:relative;
+
+}
+
+.signal-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 20px 35px rgba(0,0,0,.45);
+
+}
+
+/* ==========================================
+PREMIUM
+========================================== */
+
+.premium-card{
+
+    border:2px solid #FFD700;
+
+    background:linear-gradient(
+        180deg,
+        #1f2937,
+        #111827
+    );
+
+}
+
+/* ==========================================
+SÍMBOLO
+========================================== */
+
+.signal-symbol{
+
+    font-size:28px;
+
+    font-weight:bold;
+
+    color:#ffffff;
+
+}
+
+/* ==========================================
+SCORE
+========================================== */
+
+.signal-score{
+
+    font-size:48px;
+
+    font-weight:bold;
+
+    margin-top:10px;
+
+}
+
+/* ==========================================
+ACTION
+========================================== */
+
+.signal-action{
+
+    margin-top:10px;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    color:#00ff88;
+
+}
+
+/* ==========================================
+PRICE
+========================================== */
+
+.signal-price{
+
+    margin-top:18px;
+
+    color:#cbd5e1;
+
+    font-size:15px;
+
+}
+
+/* ==========================================
+TEXTOS
+========================================== */
+
+.text-gray-400{
+
+    color:#94a3b8;
+
+}
+
+.text-gray-500{
+
+    color:#64748b;
+
+}
+
+.text-green-400{
+
+    color:#22c55e;
+
+}
+
+.text-3xl{
+
+    font-size:34px;
+
+}
+
+.font-bold{
+
+    font-weight:bold;
+
+}
+
+/* ==========================================
+PREMIUM TITLE
+========================================== */
+
+.premium-title{
+
+    text-align:center;
+
+    color:#FFD700;
+
+    font-size:26px;
+
+    font-weight:bold;
+
+    margin-bottom:20px;
+
+    letter-spacing:1px;
+
+}

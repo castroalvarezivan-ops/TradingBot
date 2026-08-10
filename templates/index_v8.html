@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradingBot Executive V8</title>
+
+    <!-- ========================================= -->
+    <!-- CSS -->
+    <!-- ========================================= -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/cards.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/buttons.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animations.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/advisor.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <!-- ========================================= -->
+    <!-- HEADER -->
+    <!-- ========================================= -->
+    <header class="header">
+        <div class="header-left">
+            <h1>🚀 TradingBot Executive</h1>
+            <span>Dashboard Institucional V8</span>
+        </div>
+
+        <div id="balance-panel" class="header-right">
+            <div class="loading-card">
+                Cargando Balance...
+            </div>
+        </div>
+    </header>
+
+    <!-- ========================================= -->
+    <!-- OPORTUNIDAD PREMIUM -->
+    <!-- ========================================= -->
+    <section class="mt-6">
+        <div id="premium-signal"></div>
+    </section>
+
+    <!-- ========================================= -->
+    <!-- PANEL EJECUTIVO -->
+    <!-- ========================================= -->
+    <section class="stats-grid">
+        <div class="card-executive">
+            <h2>🤖 Estado Bot</h2>
+            <div id="bot-status">ONLINE</div>
+        </div>
+
+        <div class="card-executive">
+            <h2>Último Escaneo</h2>
+            <div id="last-scan">--</div>
+        </div>
+
+        <div class="card-executive">
+            <h2>Señales</h2>
+            <div id="signals-count">0</div>
+        </div>
+
+        <div class="card-executive">
+            <h2>Confianza IA</h2>
+            <div id="confidence">0%</div>
+        </div>
+
+        <div class="card-executive">
+            <h2>Drawdown</h2>
+            <div id="drawdown">0%</div>
+        </div>
+
+        <div class="card-executive">
+            <h2>Win Rate</h2>
+            <div id="winrate">--</div>
+        </div>
+    </section>
+
+    <!-- ========================================= -->
+    <!-- SEMÁFORO DEL MERCADO -->
+    <!-- ========================================= -->
+    <section class="market-panel">
+        <div id="market-status" class="market-box">
+            ESPERANDO ESCANEO...
+        </div>
+    </section>
+
+    <!-- ========================================= -->
+    <!-- CONFIDENCE GAUGE -->
+    <!-- ========================================= -->
+    <section class="mt-8">
+        <div class="card-executive">
+            <h2>🎯 Confidence Gauge</h2>
+            <div id="gauge-wrapper">
+                <div class="gauge-bar">
+                    <div id="gauge-fill" class="gauge-fill"></div>
+                </div>
+                <div id="gauge-value">0%</div>
+                <div id="gauge-label">CONFIANZA IA</div>
+                <div id="gauge-status">Esperando análisis...</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================= -->
+    <!-- RADAR DEL MERCADO -->
+    <!-- ========================================= -->
+    <section class="mt-8">
+        <div class="card-executive">
+            <h2>📡 Radar del Mercado</h2>
+            <div id="market-radar">
+                <canvas id="radarChart"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================= -->
+    <!-- TRADING ADVISOR IA -->
+    <!-- ========================================= -->
+    <section class="mt-8">
+        <div class="card-executive">
+            <h2>🤖 Trading Advisor IA</h2>
+            <div id="advisor-panel">
+                Esperando análisis...
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================= -->
+    <!-- SALUD DEL BOT -->
+    <!-- ========================================= -->
+    <section class="stats-grid mt-8">
+        <div class="card-executive">
+            <h2>⚙️ Estado API</h2>
+            <div id="api-status">ONLINE</div>
+        </div>
+
+        <div class="card-executive">
+            <h2>🔄 Pipeline</h2>
+            <div id="pipeline-status">ACTIVO</div>
+        </div>
+
+        <div class="card-executive">
+            <h2>📈 Trades Hoy</h2>
+            <div id="today-trades">0</div>
+        </div>
+
+        <div class="card-executive">
+            <h2>💰 Profit Diario</h2>
+            <div id="daily-profit">0.00 USDT</div>
+        </div>
+    </section>
+
+    <!-- ========================================= -->
+    <!-- BOTONES DE ACCIÓN -->
+    <!-- ========================================= -->
+    <section class="actions mt-8">
+        <button class="primary-button" onclick="scanMarket(false)">
+            📈 Escaneo Base
+        </button>
+
+        <button class="secondary-button" onclick="scanMarket(true)">
+            🔥 Top Volumen
+        </button>
+
+        <button class="secondary-button" onclick="fetchBalance()">
+            💰 Actualizar Balance
+        </button>
+
+        <button class="secondary-button" onclick="fetchStatus()">
+            🔄 Actualizar Estado
+        </button>
+    </section>
+
+    <!-- ========================================= -->
+    <!-- PANEL DE ACTIVIDAD -->
+    <!-- ========================================= -->
+    <section class="mt-8">
+        <div class="card-executive">
+            <h2>📋 Actividad del Bot</h2>
+            <div id="activity-log">
+                Esperando actividad...
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================= -->
+    <!-- GRID DE SEÑALES -->
+    <!-- ========================================= -->
+    <section class="bottom-grid mt-8">
+        <div id="signals-container" class="signals-grid">
+            <div class="card-executive">
+                Esperando señales...
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================= -->
+    <!-- RESUMEN EJECUTIVO -->
+    <!-- ========================================= -->
+    <section class="mt-8">
+        <div class="card-executive">
+            <h2>📊 Resumen Ejecutivo</h2>
+            <div id="executive-summary">
+                <p>
+                    El sistema analizará automáticamente el mercado y mostrará aquí un resumen ejecutivo con las mejores oportunidades detectadas.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================= -->
+    <!-- KILL SWITCH -->
+    <!-- ========================================= -->
+    <section class="mt-10 text-center">
+        <button class="kill-switch" onclick="killSwitch()">
+            🛑 DETENER BOT
+        </button>
+    </section>
+
+    <!-- ========================================= -->
+    <!-- INFORMACIÓN DEL SISTEMA -->
+    <!-- ========================================= -->
+    <section class="mt-8">
+        <div class="stats-grid">
+            <div class="card-executive">
+                <h2>🌐 API</h2>
+                <div id="api-version">Binance API</div>
+            </div>
+
+            <div class="card-executive">
+                <h2>⚙ Pipeline</h2>
+                <div id="engine-status">Pipeline Engine V8</div>
+            </div>
+
+            <div class="card-executive">
+                <h2>🧠 IA</h2>
+                <div id="advisor-status">Trading Advisor Online</div>
+            </div>
+
+            <div class="card-executive">
+                <h2>📡 Conexión</h2>
+                <div id="connection-status">Conectado</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================= -->
+    <!-- FOOTER -->
+    <!-- ========================================= -->
+    <footer class="footer">
+        <div>TradingBot Executive V8</div>
+        <div>Binance API</div>
+        <div>Pipeline Engine</div>
+        <div>Paper Trading</div>
+        <div>CEO Dashboard</div>
+    </footer>
+
+</div>
+
+<!-- ========================================= -->
+<!-- LIBRERÍAS Y SCRIPTS -->
+<!-- ========================================= -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="{{ url_for('static', filename='js/dashboard_v8.js') }}"></script>
+
+</body>
+</html>

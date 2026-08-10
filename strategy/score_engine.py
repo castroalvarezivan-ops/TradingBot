@@ -1,139 +1,176 @@
+# ==========================================
+# TradingBot Executive V8
+# strategy/score_engine.py
+# ==========================================
+
+"""
+Score Engine Institucional
+
+Calcula el Score IA (0-100)
+utilizado por Decision Engine.
+"""
+
+MAX_SCORE = 100
+
+
 def calculate_score(latest):
-    """
-    Calcula el score institucional.
-    """
 
     score = 0
     reasons = []
 
-    # ==========================
+    # =====================================
     # EMA
-    # ==========================
+    # =====================================
 
     if latest["ema_9"] > latest["ema_21"] > latest["ema_50"]:
-        score += 40
+        score += 15
         reasons.append("EMAs Alcistas")
 
     elif latest["ema_9"] < latest["ema_21"] < latest["ema_50"]:
-        score -= 40
+        score -= 15
         reasons.append("EMAs Bajistas")
 
-    # ==========================
+    # =====================================
     # RSI
-    # ==========================
+    # =====================================
 
-    if 40 <= latest["rsi"] <= 65:
-        score += 25
+    rsi = latest["rsi"]
+
+    if 50 <= rsi <= 65:
+        score += 10
         reasons.append("RSI Saludable")
 
-    elif latest["rsi"] < 30:
-        score += 20
-        reasons.append("RSI Sobreventa")
+    elif rsi < 30:
+        score += 8
+        reasons.append("Sobreventa")
 
-    elif latest["rsi"] > 75:
-        score -= 20
-        reasons.append("RSI Sobrecompra")
+    elif rsi > 75:
+        score -= 8
+        reasons.append("Sobrecompra")
 
-    # ==========================
+    # =====================================
     # MACD
-    # ==========================
+    # =====================================
 
     if latest["macd"] > latest["macd_signal"]:
-        score += 25
-        reasons.append("MACD Alcista")
+        score += 10
+        reasons.append("MACD Bullish")
+
     else:
-        score -= 25
-        reasons.append("MACD Bajista")
+        score -= 10
+        reasons.append("MACD Bearish")
 
-    # ==========================
+    # =====================================
     # ADX
-    # ==========================
+    # =====================================
 
-    if latest["adx"] >= 30:
-        score += 20
-        reasons.append("ADX Tendencia Fuerte")
+    adx = latest["adx"]
 
-    elif latest["adx"] < 20:
-        score -= 15
-        reasons.append("ADX Mercado Lateral")
+    if adx >= 30:
+        score += 8
+        reasons.append("ADX Alto")
 
-    # ==========================
+    elif adx < 20:
+        score -= 5
+        reasons.append("Mercado Lateral")
+
+    # =====================================
     # SUPERTREND
-    # ==========================
+    # =====================================
 
     if latest["supertrend"]:
-        score += 20
-        reasons.append("Supertrend Alcista")
+        score += 8
+        reasons.append("Supertrend")
+
     else:
-        score -= 20
+        score -= 8
         reasons.append("Supertrend Bajista")
 
-    # ==========================
+    # =====================================
     # VOLUMEN
-    # ==========================
+    # =====================================
 
     if latest["volume"] > latest["vol_sma"] * 1.5:
-        score += 35
+        score += 10
         reasons.append("Volumen Institucional")
 
-    # ==========================
-    # BOS DIRECCIONAL
-    # ==========================
+    # =====================================
+    # BOS
+    # =====================================
 
     if latest["bos"] == "bullish":
-        score += 25
+        score += 10
         reasons.append("Bullish BOS")
 
     elif latest["bos"] == "bearish":
-        score -= 25
+        score -= 10
         reasons.append("Bearish BOS")
 
-    # ==========================
-    # CHOCH DIRECCIONAL
-    # ==========================
+    # =====================================
+    # CHOCH
+    # =====================================
 
     if latest["choch"] == "bullish":
-        score += 30
-        reasons.append("Bullish CHoCH")
+        score += 10
+        reasons.append("Bullish CHOCH")
 
     elif latest["choch"] == "bearish":
-        score -= 30
-        reasons.append("Bearish CHoCH")
+        score -= 10
+        reasons.append("Bearish CHOCH")
 
-    # ==========================
-    # LIQUIDEZ
-    # ==========================
-
-    if latest["equal_high"]:
-        score += 10
-        reasons.append("Equal High")
-
-    if latest["equal_low"]:
-        score += 10
-        reasons.append("Equal Low")
-
-    # ==========================
-    # ORDER BLOCKS
-    # ==========================
+    # =====================================
+    # ORDER BLOCK
+    # =====================================
 
     if latest["bullish_ob"]:
-        score += 25
-        reasons.append("Bullish Order Block")
+        score += 8
+        reasons.append("Bullish OB")
 
     if latest["bearish_ob"]:
-        score -= 25
-        reasons.append("Bearish Order Block")
+        score -= 8
+        reasons.append("Bearish OB")
 
-    # ==========================
+    # =====================================
     # FAIR VALUE GAP
-    # ==========================
+    # =====================================
 
     if latest["bullish_fvg"]:
-        score += 20
+        score += 6
         reasons.append("Bullish FVG")
 
     if latest["bearish_fvg"]:
-        score -= 20
+        score -= 6
         reasons.append("Bearish FVG")
 
-    return score, reasons
+    # =====================================
+    # LIQUIDEZ
+    # =====================================
+
+    if latest["equal_high"]:
+        score += 5
+        reasons.append("Equal High")
+
+    if latest["equal_low"]:
+        score += 5
+        reasons.append("Equal Low")
+
+    # =====================================
+    # NORMALIZACIÓN
+    # =====================================
+
+    score = max(min(score, MAX_SCORE), -MAX_SCORE)
+
+    institutional_score = int((score + MAX_SCORE) / 2)
+
+    return institutional_score, reasons
+
+
+# ==========================================
+# TEST
+# ==========================================
+
+if __name__ == "__main__":
+
+    print("===================================")
+    print(" SCORE ENGINE V8")
+    print("===================================")

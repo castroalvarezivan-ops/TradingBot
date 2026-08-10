@@ -1,0 +1,157 @@
+/* ==========================================
+   BOTONES V8
+========================================== */
+
+.actions{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+}
+
+/* ==========================================
+BOTÓN PRINCIPAL
+========================================== */
+
+.primary-button{
+
+    padding:16px 34px;
+
+    border:none;
+
+    border-radius:14px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    color:white;
+
+    background:linear-gradient(90deg,#10b981,#059669);
+
+    transition:.30s;
+
+    box-shadow:0 0 15px rgba(16,185,129,.30);
+
+}
+
+.primary-button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 0 30px rgba(16,185,129,.50);
+
+}
+
+/* ==========================================
+BOTÓN SECUNDARIO
+========================================== */
+
+.secondary-button{
+
+    padding:16px 30px;
+
+    border:none;
+
+    border-radius:14px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    font-weight:bold;
+
+    color:white;
+
+    background:#1e293b;
+
+    transition:.30s;
+
+}
+
+.secondary-button:hover{
+
+    background:#334155;
+
+    transform:translateY(-3px);
+
+}
+
+/* ==========================================
+BOTÓN EJECUTAR
+========================================== */
+
+.execute-button{
+
+    width:100%;
+
+    margin-top:20px;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:14px;
+
+    cursor:pointer;
+
+    color:white;
+
+    font-size:15px;
+
+    font-weight:bold;
+
+    background:linear-gradient(90deg,#16a34a,#22c55e);
+
+    transition:.30s;
+
+}
+
+.execute-button:hover{
+
+    transform:scale(1.02);
+
+    box-shadow:0 0 20px rgba(34,197,94,.40);
+
+}
+
+/* ==========================================
+KILL SWITCH
+========================================== */
+
+.kill-switch{
+
+    padding:18px 50px;
+
+    border:none;
+
+    border-radius:18px;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    color:white;
+
+    background:linear-gradient(90deg,#dc2626,#991b1b);
+
+    transition:.35s;
+
+}
+
+.kill-switch:hover{
+
+    transform:scale(1.05);
+
+    box-shadow:0 0 35px rgba(239,68,68,.45);
+
+}

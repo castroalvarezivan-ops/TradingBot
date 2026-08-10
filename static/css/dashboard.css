@@ -1,0 +1,295 @@
+/* ==========================================
+   TradingBot Executive V8
+   Dashboard Principal
+==========================================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#020617;
+    color:#ffffff;
+    font-family:Inter,Segoe UI,Arial,sans-serif;
+}
+
+.dashboard{
+    width:95%;
+    margin:auto;
+    padding:25px;
+}
+
+/* ==========================================
+HEADER
+==========================================*/
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+    padding:20px;
+    background:#0f172a;
+    border-radius:18px;
+    border:1px solid #1e293b;
+}
+
+.header-left h1{
+    font-size:34px;
+    color:#10b981;
+}
+
+.header-left span{
+    color:#94a3b8;
+}
+
+.header-right{
+    text-align:right;
+}
+
+/* ==========================================
+GRID SUPERIOR
+==========================================*/
+
+.stats-grid{
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    gap:18px;
+    margin-bottom:30px;
+}
+
+/* ==========================================
+SEMÁFORO
+==========================================*/
+
+.market-panel{
+    margin-bottom:30px;
+}
+
+.market-box{
+    background:#111827;
+    border-radius:22px;
+    padding:45px;
+    text-align:center;
+    font-size:48px;
+    font-weight:bold;
+    border:2px solid #334155;
+    transition:.35s;
+}
+
+/* ==========================================
+BOTONES
+==========================================*/
+
+.actions{
+    display:flex;
+    gap:15px;
+    margin-bottom:35px;
+}
+
+/* ==========================================
+PANEL PRINCIPAL
+==========================================*/
+
+.bottom-grid{
+    display:grid;
+    grid-template-columns:3fr 1fr;
+    gap:25px;
+}
+
+/* ==========================================
+SEÑALES
+==========================================*/
+
+.signals-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+    gap:20px;
+}
+
+/* ==========================================
+ADVISOR
+==========================================*/
+
+.advisor-panel{
+    background:#111827;
+    border-radius:20px;
+    padding:25px;
+    border:1px solid #334155;
+}
+
+.advisor-panel h2{
+    margin-bottom:20px;
+    color:#10b981;
+}
+
+.advisor-item{
+    display:flex;
+    justify-content:space-between;
+    margin-top:15px;
+    padding-bottom:8px;
+    border-bottom:1px solid #1e293b;
+}
+
+/* ==========================================
+FOOTER
+==========================================*/
+
+.footer{
+    margin-top:40px;
+    display:flex;
+    justify-content:space-around;
+    padding:20px;
+    color:#94a3b8;
+    border-top:1px solid #334155;
+}
+
+/* ==========================================
+   CONFIDENCE GAUGE
+========================================== */
+
+#gauge-wrapper{
+    width:100%;
+    text-align:center;
+}
+
+#gauge-value{
+    font-size:52px;
+    font-weight:bold;
+    margin-top:15px;
+    transition:color .4s ease;
+}
+
+#gauge-label{
+    color:#94a3b8;
+    font-size:14px;
+    letter-spacing:2px;
+    margin-top:8px;
+}
+
+.gauge-bar{
+    width:100%;
+    height:16px;
+    background:#1e293b;
+    border-radius:20px;
+    overflow:hidden;
+    margin-top:20px;
+}
+
+.gauge-fill{
+    height:100%;
+    width:0%;
+    background:linear-gradient(
+        90deg,
+        #ef4444,
+        #facc15,
+        #22c55e
+    );
+    transition:width .8s ease;
+}
+
+.gauge-status{
+    margin-top:20px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+/* ==========================================
+   ESTILOS PREMIUM & GLOW (V8 Additions)
+========================================== */
+
+.premium-card {
+    border: 2px solid #FFD700 !important;
+    background: linear-gradient(135deg, #111827 0%, #1f2937 100%);
+}
+
+.premium-title {
+    color: #FFD700;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.glow-gold {
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+    border-color: #FFD700;
+}
+
+.glow-green {
+    box-shadow: 0 0 15px rgba(34, 197, 94, 0.3);
+    border-color: #22c55e;
+}
+
+.glow-red {
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.3);
+    border-color: #ef4444;
+}
+
+.signal-card {
+    background: #111827;
+    border-radius: 16px;
+    padding: 20px;
+    border: 1px solid #334155;
+    transition: transform 0.2s ease;
+}
+
+.signal-card:hover {
+    transform: translateY(-3px);
+}
+
+.signal-symbol {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f8fafc;
+}
+
+.signal-score {
+    font-size: 24px;
+    font-weight: bold;
+    color: #10b981;
+    margin: 8px 0;
+}
+
+.signal-action {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    color: #94a3b8;
+}
+
+.execute-button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background: #10b981;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.execute-button:hover {
+    background: #059669;
+}
+
+.kill-switch {
+    background: #dc2626;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.kill-switch:hover {
+    background: #b91c1c;
+}

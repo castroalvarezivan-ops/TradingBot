@@ -1,0 +1,156 @@
+/* ==========================================
+   RESPONSIVE V8
+========================================== */
+
+/* 1600px */
+@media (max-width:1600px){
+
+    .stats-grid{
+
+        grid-template-columns:repeat(3,1fr);
+
+    }
+
+}
+
+/* 1200px */
+@media (max-width:1200px){
+
+    .stats-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .bottom-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .actions{
+
+        justify-content:center;
+
+    }
+
+}
+
+/* 992px */
+@media (max-width:992px){
+
+    .header{
+
+        flex-direction:column;
+
+        gap:20px;
+
+        align-items:flex-start;
+
+    }
+
+    .header-right{
+
+        width:100%;
+
+    }
+
+    #balance-panel{
+
+        width:100%;
+
+    }
+
+}
+
+/* Tablets */
+@media (max-width:768px){
+
+    .stats-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .actions{
+
+        flex-direction:column;
+
+    }
+
+    .primary-button,
+    .secondary-button,
+    .kill-switch{
+
+        width:100%;
+
+    }
+
+    .market-box{
+
+        font-size:28px;
+
+        padding:25px;
+
+    }
+
+    .signal-score{
+
+        font-size:36px;
+
+    }
+
+    .card-executive{
+
+        padding:20px;
+
+    }
+
+}
+
+/* Celulares */
+@media (max-width:480px){
+
+    body{
+
+        font-size:14px;
+
+    }
+
+    .dashboard{
+
+        padding:10px;
+
+    }
+
+    h1{
+
+        font-size:24px;
+
+    }
+
+    .market-box{
+
+        font-size:22px;
+
+    }
+
+    .signal-score{
+
+        font-size:30px;
+
+    }
+
+    .premium-title{
+
+        font-size:18px;
+
+    }
+
+    #advisor-panel{
+
+        padding:20px;
+
+    }
+
+}
